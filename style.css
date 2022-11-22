@@ -82,7 +82,7 @@ body{
     font-size: 2em;
     position: absolute;
     z-index: 6;
-    top:60%;
+    top:70%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
