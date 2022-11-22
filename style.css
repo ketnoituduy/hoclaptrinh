@@ -82,7 +82,7 @@ body{
     font-size: 2em;
     position: absolute;
     z-index: 6;
-    top:70%;
+    top:60%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
@@ -93,6 +93,7 @@ body{
     .gioithieu{
         font-size: 1.8em;
         width: 300px;
+        top:70%;
     }
     .title1{
         width: 250px;
@@ -113,10 +114,19 @@ body{
     .mota h2{
         width: 100%;
     }
-    .games h1{
+    .game{
+        width: 40%;
+    }
+    .game h2{
+        font-size: 1.1em;
+        text-align: center;
+    }
+    .game .imgGame{
         width: 100%;
     }
-
+    .menulienhe{
+        font-size: 1em;
+    }
 }
 .mota{
     width: 100%;
@@ -165,7 +175,7 @@ body{
     height: 20%;
     border-radius: 50%;
 } 
-.info{
+#info{
     width: 70%;
     font-family: 'Ramabhadra', sans-serif;
 }
