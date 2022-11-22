@@ -91,7 +91,7 @@ body{
 }
 @media screen and (max-width:800px) {
     .gioithieu{
-        font-size: 1.8em;
+        font-size: 1.5em;
         width: 300px;
         top:70%;
     }
