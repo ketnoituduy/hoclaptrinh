@@ -51,7 +51,7 @@ function connect(){
             let dx = particles[i].x - particles[j].x
             let dy = particles[i].y - particles[j].y
             let distance = dx*dx + dy*dy
-            if (distance < canvas.width/6*canvas.height/6){
+            if (distance < canvas.width/4*canvas.height/4){
                 opacity = 1 - (distance/20000)
                 ctx.strokeStyle = 'rgba(140,85,31,' + opacity + ')'
                 ctx.lineWidth = 1
@@ -66,12 +66,12 @@ function connect(){
 function init(){
     particles = []
     let number = (canvas.width*canvas.height)/9000
-    for (let i = 0; i < number + 20;i++){
+    for (let i = 0; i < number;i++){
         let size = Math.random()*5 + 1
         let x = Math.random()*(canvas.width - 4*size) + 2*size
         let y = Math.random()*(canvas.height - 4*size) + 2*size
-        let vX = Math.random()*5 - 2.5
-        let vY = Math.random()*5 - 2.5
+        let vX = Math.random()*1.5 - 1.5
+        let vY = Math.random()*1.5 - 1.5
         let p = new particle(x,y,size,vX,vY,'red')
         particles.push(p)
     }
