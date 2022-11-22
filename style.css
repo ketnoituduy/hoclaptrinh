@@ -89,7 +89,7 @@ body{
     font-family: 'Great Vibes', cursive;
 
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:800px) {
     .gioithieu{
         font-size: 1.8em;
         width: 300px;
