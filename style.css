@@ -179,13 +179,13 @@ body{
     width: 70%;
     font-family: 'Ramabhadra', sans-serif;
 }
-.info h1{
+#info h1{
     font-size: 3em;
 }
-.info h3{
+#info h3{
     color: red;
 } 
-.info p{
+#info p{
     font-size: 1.3em;
 } 
 #lienhe{
