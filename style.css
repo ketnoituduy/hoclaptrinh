@@ -212,6 +212,10 @@ body{
     border-radius: 50%;
     background-image: linear-gradient(to right,black,rgba(0, 0, 0, 0.5));
 }
+.infomation a{
+    color: rgba(0, 0, 255, 0.943);
+    text-decoration: none;
+}
 
 #lienhe h1 b{
     color: red;
